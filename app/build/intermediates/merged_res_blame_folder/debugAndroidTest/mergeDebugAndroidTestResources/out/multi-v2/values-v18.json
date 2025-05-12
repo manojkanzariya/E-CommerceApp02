@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.e_commerceapp.test.app-mergeDebugAndroidTestResources-1:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\caches\\8.10.2\\transforms\\3307444c9b7a3ae1be7387035c86ae6e\\transformed\\core-1.6.1\\res\\values-v18\\values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,562",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "561,975"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,475",
+                        "endLines": "9,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "470,888"
+                    }
+                }
+            ]
+        }
+    ]
+}

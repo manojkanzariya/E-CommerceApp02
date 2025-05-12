@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vendor.VendorSettingsActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/ic_arrow_back"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- User Profile Section -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="12dp">
+
+                        <ImageView
+                            android:id="@+id/ivVendorImage"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/ic_profile"
+                            android:contentDescription="@string/profile_image"
+                            android:layout_marginEnd="16dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvUserName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:text="Vendor Name"/>
+
+                            <TextView
+                                android:id="@+id/tvUserEmail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp"
+                                android:textColor="?attr/colorOnSurface"
+                                tools:text="vendor@example.com"/>
+
+                            <TextView
+                                android:id="@+id/tvStoreName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp"
+                                android:textColor="?attr/colorOnSurface"
+                                tools:text="My Store"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="8dp"
+                        android:background="?attr/colorOutline"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/profileInfo"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profile Information"
+                        app:icon="@drawable/ic_profile"
+                        app:iconTint="?attr/colorPrimary"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/changePassword"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change Password"
+                        app:icon="@drawable/ic_lock"
+                        app:iconTint="?attr/colorPrimary"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/emailPreferences"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email Preferences"
+                        app:icon="@drawable/ic_email"
+                        app:iconTint="?attr/colorPrimary"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Store Settings Section -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Store Settings"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:padding="12dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/colorOutline"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/storeInfo"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Store Information"
+                        app:icon="@drawable/ic_store"
+                        app:iconTint="?attr/colorPrimary"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/shippingSettings"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shipping Settings"
+                        app:icon="@drawable/ic_shopping_cart"
+                        app:iconTint="?attr/colorPrimary"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/vendorPayment"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vendor Payment"
+                        app:icon="@drawable/ic_payment"
+                        app:iconTint="?attr/colorPrimary"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/paymentMethods"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Payment Methods"
+                        app:icon="@drawable/ic_payment"
+                        app:iconTint="?attr/colorPrimary"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Account Actions Section -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Account"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:padding="12dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/colorOutline"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/switchToCustomer"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Switch to Customer Mode"
+                        android:visibility="gone"
+                        app:icon="@drawable/ic_switch_account"
+                        app:iconTint="?attr/colorPrimary"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/logout"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Logout"
+                        app:icon="@drawable/ic_logout"
+                        app:iconTint="@android:color/holo_red_dark"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/deleteAccount"
+                        style="@style/MyListItemStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Delete Account"
+                        android:textColor="@android:color/holo_red_dark"
+                        app:icon="@drawable/ic_delete"
+                        app:iconTint="@android:color/holo_red_dark"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

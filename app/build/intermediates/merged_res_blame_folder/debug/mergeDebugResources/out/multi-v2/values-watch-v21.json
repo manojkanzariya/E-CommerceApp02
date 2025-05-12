@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.e_commerceapp-mergeDebugResources-3:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\caches\\8.10.2\\transforms\\85d5e5e8b79e9cce8be21db7b2f3c416\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

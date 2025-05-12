@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Reviewer Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/tvReviewerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John D."
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvReviewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - 2 days ago"
+                android:textColor="#9E9E9E"
+                android:textSize="12sp"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- Rating -->
+        <RatingBar
+            android:id="@+id/ratingBarReview"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="4"
+            android:stepSize="1"
+            android:isIndicator="true"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Review Text -->
+        <TextView
+            android:id="@+id/tvReviewText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This product is amazing! It exceeded all my expectations. The quality is superb and it arrived quickly."
+            android:textColor="#616161"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

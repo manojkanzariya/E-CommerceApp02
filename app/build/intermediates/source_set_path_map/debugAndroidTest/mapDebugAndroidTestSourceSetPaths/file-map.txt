@@ -1,0 +1,5 @@
+com.example.e_commerceapp.test.app-androidTest-0 D:\Android_Projects\ECommerceApp\app\build\generated\res\resValues\androidTest\debug
+com.example.e_commerceapp.test.app-mergeDebugAndroidTestResources-1 D:\Android_Projects\ECommerceApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.e_commerceapp.test.app-mergeDebugAndroidTestResources-2 D:\Android_Projects\ECommerceApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.e_commerceapp.test.app-debugAndroidTest-3 D:\Android_Projects\ECommerceApp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.e_commerceapp.test.app-core-1.6.1-4 D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3307444c9b7a3ae1be7387035c86ae6e\transformed\core-1.6.1\res

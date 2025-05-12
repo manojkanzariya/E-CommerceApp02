@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:name=".ui.home.ECommerceApp"
+        android:enableOnBackInvokedCallback="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ECommerceApp"
+        tools:targetApi="tiramisu">
+
+        <activity
+            android:name=".ui.home.SplashActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable,MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".ui.auth.RegisterActivity"/>
+        <activity android:name=".ui.auth.ForgotPasswordActivity"/>
+        <activity android:name=".ui.home.MainActivity" />
+        <activity android:name=".vendor.VendorDashboardActivity"/>
+        <activity android:name=".vendor.VendorOrdersActivity"/>
+        <activity android:name=".vendor.AddProductActivity"/>
+        <activity android:name=".vendor.InventoryActivity"/>
+        <activity android:name=".vendor.EditProductActivity"/>
+        <activity android:name=".vendor.AnalyticsActivity"/>
+        <activity android:name=".vendor.ChangePasswordActivity"/>
+        <activity android:name=".vendor.PaymentMethodsActivity"/>
+        <activity android:name=".vendor.ShippingSettingsActivity"/>
+        <activity android:name=".vendor.StoreSettingsActivity"/>
+        <activity android:name=".vendor.VendorProductListActivity"/>
+        <activity android:name=".vendor.VendorProfileActivity"/>
+        <activity android:name=".vendor.VendorSettingsActivity"/>
+        <activity android:name=".vendor.VendorRegisterActivity"/>
+        <activity android:name=".vendor.VendorDetailsActivity"/>
+        <activity android:name=".vendor.VendorPaymentActivity"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,746 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.e_commerceapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission
+12-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:6:5-7:38
+13        android:name="android.permission.READ_EXTERNAL_STORAGE"
+13-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:6:22-77
+14        android:maxSdkVersion="32" />
+14-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:7:9-35
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:26:5-79
+15-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:26:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+18-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:26:5-88
+18-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:26:22-85
+19    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:27:5-82
+19-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:27:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:26:22-107
+21    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+21-->[com.google.android.recaptcha:recaptcha:18.6.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\28620024cc29c07d2ffdd07d45e2169f\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+21-->[com.google.android.recaptcha:recaptcha:18.6.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\28620024cc29c07d2ffdd07d45e2169f\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+22-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+23-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+24
+25    <permission
+25-->[androidx.core:core:1.13.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\57bdfe376e61bf9ac2bda29875559b24\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.e_commerceapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.13.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\57bdfe376e61bf9ac2bda29875559b24\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.13.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\57bdfe376e61bf9ac2bda29875559b24\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.e_commerceapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.13.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\57bdfe376e61bf9ac2bda29875559b24\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.13.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\57bdfe376e61bf9ac2bda29875559b24\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:9:5-65:19
+32        android:name="com.example.e_commerceapp.ui.home.ECommerceApp"
+32-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:10:9-45
+33        android:allowBackup="true"
+33-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:12:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.13.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\57bdfe376e61bf9ac2bda29875559b24\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+35        android:dataExtractionRules="@xml/data_extraction_rules"
+35-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:13:9-65
+36        android:debuggable="true"
+37        android:enableOnBackInvokedCallback="true"
+37-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:11:9-51
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:14:9-54
+40        android:icon="@drawable/ic_logo"
+40-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:15:9-41
+41        android:label="@string/app_name"
+41-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:16:9-41
+42        android:roundIcon="@drawable/ic_logo"
+42-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:17:9-46
+43        android:supportsRtl="true"
+43-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:18:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.ECommerceApp" >
+45-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:19:9-50
+46        <activity
+46-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:22:9-31:20
+47            android:name="com.example.e_commerceapp.ui.home.SplashActivity"
+47-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:23:13-51
+48            android:exported="true" >
+48-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:24:13-36
+49            <intent-filter>
+49-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:26:13-30:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:27:17-69
+50-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:27:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:29:17-77
+52-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:29:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:33:9-36:75
+56            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+56-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:34:13-93
+57            android:excludeFromRecents="true"
+57-->[com.google.android.gms:play-services-auth:20.7.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\91a627123d2837a571d9298e72e93805\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+58            android:exported="false"
+58-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:35:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:36:13-72
+60
+61        <meta-data
+61-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:38:9-40:69
+62            android:name="com.google.android.gms.version"
+62-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:39:13-58
+63            android:value="@integer/google_play_services_version" />
+63-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:40:13-66
+64
+65        <activity
+65-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:42:9-44:46
+66            android:name="com.example.e_commerceapp.ui.auth.LoginActivity"
+66-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:43:13-50
+67            android:launchMode="singleTask" />
+67-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:44:13-44
+68        <activity android:name="com.example.e_commerceapp.ui.auth.RegisterActivity" />
+68-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:45:9-61
+68-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:45:19-59
+69        <activity android:name="com.example.e_commerceapp.ui.auth.ForgotPasswordActivity" />
+69-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:46:9-67
+69-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:46:19-65
+70        <activity android:name="com.example.e_commerceapp.ui.home.MainActivity" />
+70-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:47:9-58
+70-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:47:19-55
+71        <activity android:name="com.example.e_commerceapp.vendor.VendorDashboardActivity" />
+71-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:48:9-67
+71-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:48:19-65
+72        <activity android:name="com.example.e_commerceapp.vendor.VendorOrdersActivity" />
+72-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:49:9-64
+72-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:49:19-62
+73        <activity android:name="com.example.e_commerceapp.vendor.AddProductActivity" />
+73-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:50:9-62
+73-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:50:19-60
+74        <activity android:name="com.example.e_commerceapp.vendor.InventoryActivity" />
+74-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:51:9-61
+74-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:51:19-59
+75        <activity android:name="com.example.e_commerceapp.vendor.EditProductActivity" />
+75-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:52:9-63
+75-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:52:19-61
+76        <activity android:name="com.example.e_commerceapp.vendor.AnalyticsActivity" />
+76-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:53:9-61
+76-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:53:19-59
+77        <activity android:name="com.example.e_commerceapp.vendor.ChangePasswordActivity" />
+77-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:54:9-66
+77-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:54:19-64
+78        <activity android:name="com.example.e_commerceapp.vendor.PaymentMethodsActivity" />
+78-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:55:9-66
+78-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:55:19-64
+79        <activity android:name="com.example.e_commerceapp.vendor.ShippingSettingsActivity" />
+79-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:56:9-68
+79-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:56:19-66
+80        <activity android:name="com.example.e_commerceapp.vendor.StoreSettingsActivity" />
+80-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:57:9-65
+80-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:57:19-63
+81        <activity android:name="com.example.e_commerceapp.vendor.VendorProductListActivity" />
+81-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:58:9-69
+81-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:58:19-67
+82        <activity android:name="com.example.e_commerceapp.vendor.VendorProfileActivity" />
+82-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:59:9-65
+82-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:59:19-63
+83        <activity android:name="com.example.e_commerceapp.vendor.VendorSettingsActivity" />
+83-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:60:9-66
+83-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:60:19-64
+84        <activity android:name="com.example.e_commerceapp.vendor.VendorRegisterActivity" />
+84-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:61:9-66
+84-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:61:19-64
+85        <activity android:name="com.example.e_commerceapp.vendor.VendorDetailsActivity" />
+85-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:62:9-65
+85-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:62:19-63
+86        <activity android:name="com.example.e_commerceapp.vendor.VendorPaymentActivity" />
+86-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:63:9-65
+86-->D:\Android_Projects\ECommerceApp\app\src\main\AndroidManifest.xml:63:19-63
+87        <activity
+87-->[com.cloudinary:cloudinary-android-ui:2.3.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\de39610ca264e3cfe33d2b16f6fa0ae8\transformed\cloudinary-android-ui-2.3.1\AndroidManifest.xml:10:9-13:56
+88            android:name="com.cloudinary.android.uploadwidget.ui.UploadWidgetActivity"
+88-->[com.cloudinary:cloudinary-android-ui:2.3.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\de39610ca264e3cfe33d2b16f6fa0ae8\transformed\cloudinary-android-ui-2.3.1\AndroidManifest.xml:11:13-87
+89            android:configChanges="orientation"
+89-->[com.cloudinary:cloudinary-android-ui:2.3.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\de39610ca264e3cfe33d2b16f6fa0ae8\transformed\cloudinary-android-ui-2.3.1\AndroidManifest.xml:12:13-48
+90            android:theme="@style/UploadWidgetTheme" />
+90-->[com.cloudinary:cloudinary-android-ui:2.3.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\de39610ca264e3cfe33d2b16f6fa0ae8\transformed\cloudinary-android-ui-2.3.1\AndroidManifest.xml:13:13-53
+91
+92        <service
+92-->[com.google.firebase:firebase-auth-ktx:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\9a00f2bb3ceb982252b306ab50b76c7e\transformed\firebase-auth-ktx-23.2.0\AndroidManifest.xml:8:9-14:19
+93            android:name="com.google.firebase.components.ComponentDiscoveryService"
+93-->[com.google.firebase:firebase-auth-ktx:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\9a00f2bb3ceb982252b306ab50b76c7e\transformed\firebase-auth-ktx-23.2.0\AndroidManifest.xml:9:13-84
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+95            android:exported="false" >
+95-->[com.google.firebase:firebase-auth-ktx:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\9a00f2bb3ceb982252b306ab50b76c7e\transformed\firebase-auth-ktx-23.2.0\AndroidManifest.xml:10:13-37
+96            <meta-data
+96-->[com.google.firebase:firebase-auth-ktx:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\9a00f2bb3ceb982252b306ab50b76c7e\transformed\firebase-auth-ktx-23.2.0\AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+97-->[com.google.firebase:firebase-auth-ktx:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\9a00f2bb3ceb982252b306ab50b76c7e\transformed\firebase-auth-ktx-23.2.0\AndroidManifest.xml:12:17-119
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth-ktx:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\9a00f2bb3ceb982252b306ab50b76c7e\transformed\firebase-auth-ktx-23.2.0\AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:69:13-71:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:70:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:71:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-firestore:25.1.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2a9b16253becccd88c570ea3cf97a3c6\transformed\firebase-firestore-25.1.3\AndroidManifest.xml:17:13-19:85
+103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+103-->[com.google.firebase:firebase-firestore:25.1.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2a9b16253becccd88c570ea3cf97a3c6\transformed\firebase-firestore-25.1.3\AndroidManifest.xml:18:17-122
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-firestore:25.1.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2a9b16253becccd88c570ea3cf97a3c6\transformed\firebase-firestore-25.1.3\AndroidManifest.xml:19:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-firestore:25.1.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2a9b16253becccd88c570ea3cf97a3c6\transformed\firebase-firestore-25.1.3\AndroidManifest.xml:20:13-22:85
+106                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+106-->[com.google.firebase:firebase-firestore:25.1.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2a9b16253becccd88c570ea3cf97a3c6\transformed\firebase-firestore-25.1.3\AndroidManifest.xml:21:17-111
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-firestore:25.1.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2a9b16253becccd88c570ea3cf97a3c6\transformed\firebase-firestore-25.1.3\AndroidManifest.xml:22:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-storage-ktx:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\1fa7a323f6acb59d2a607ea0286fafea\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:12:13-14:85
+109                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar"
+109-->[com.google.firebase:firebase-storage-ktx:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\1fa7a323f6acb59d2a607ea0286fafea\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:13:17-125
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-storage-ktx:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\1fa7a323f6acb59d2a607ea0286fafea\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:14:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-storage:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3e04b326087b23c43e2a0a176a7d2da6\transformed\firebase-storage-21.0.1\AndroidManifest.xml:30:13-32:85
+112                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+112-->[com.google.firebase:firebase-storage:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3e04b326087b23c43e2a0a176a7d2da6\transformed\firebase-storage-21.0.1\AndroidManifest.xml:31:17-118
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-storage:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3e04b326087b23c43e2a0a176a7d2da6\transformed\firebase-storage-21.0.1\AndroidManifest.xml:32:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-storage:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3e04b326087b23c43e2a0a176a7d2da6\transformed\firebase-storage-21.0.1\AndroidManifest.xml:33:13-35:85
+115                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+115-->[com.google.firebase:firebase-storage:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3e04b326087b23c43e2a0a176a7d2da6\transformed\firebase-storage-21.0.1\AndroidManifest.xml:34:17-107
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-storage:21.0.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3e04b326087b23c43e2a0a176a7d2da6\transformed\firebase-storage-21.0.1\AndroidManifest.xml:35:17-82
+117            <meta-data
+117-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:33:13-35:85
+118                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+118-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:34:17-139
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.android.gms:play-services-measurement-api:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\c2d660d1aa7ccc52c47c23c35c25f8a3\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:35:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-appcheck:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\115922dc7b063e9d59c9c118388636f9\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+121                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+121-->[com.google.firebase:firebase-appcheck:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\115922dc7b063e9d59c9c118388636f9\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-appcheck:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\115922dc7b063e9d59c9c118388636f9\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-appcheck:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\115922dc7b063e9d59c9c118388636f9\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+124                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+124-->[com.google.firebase:firebase-appcheck:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\115922dc7b063e9d59c9c118388636f9\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-appcheck:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\115922dc7b063e9d59c9c118388636f9\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-installations:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\93a2627b4658a9ed388cc6b6cc97cde9\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+127                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+127-->[com.google.firebase:firebase-installations:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\93a2627b4658a9ed388cc6b6cc97cde9\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-installations:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\93a2627b4658a9ed388cc6b6cc97cde9\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-installations:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\93a2627b4658a9ed388cc6b6cc97cde9\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+130                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+130-->[com.google.firebase:firebase-installations:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\93a2627b4658a9ed388cc6b6cc97cde9\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-installations:18.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\93a2627b4658a9ed388cc6b6cc97cde9\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-common-ktx:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\cde9ed495e4bc532508cfc23683bd41b\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+133                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+133-->[com.google.firebase:firebase-common-ktx:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\cde9ed495e4bc532508cfc23683bd41b\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-common-ktx:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\cde9ed495e4bc532508cfc23683bd41b\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+136                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+136-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+138        </service>
+139
+140        <activity
+140-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:29:9-46:20
+141            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+141-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:30:13-80
+142            android:excludeFromRecents="true"
+142-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:31:13-46
+143            android:exported="true"
+143-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:32:13-36
+144            android:launchMode="singleTask"
+144-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:33:13-44
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+145-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:34:13-72
+146            <intent-filter>
+146-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:35:13-45:29
+147                <action android:name="android.intent.action.VIEW" />
+147-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:36:17-69
+147-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:36:25-66
+148
+149                <category android:name="android.intent.category.DEFAULT" />
+149-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:38:17-76
+149-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:38:27-73
+150                <category android:name="android.intent.category.BROWSABLE" />
+150-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:39:17-78
+150-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:39:27-75
+151
+152                <data
+152-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:41:17-44:51
+153                    android:host="firebase.auth"
+153-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:42:21-49
+154                    android:path="/"
+154-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:43:21-37
+155                    android:scheme="genericidp" />
+155-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:44:21-48
+156            </intent-filter>
+157        </activity>
+158        <activity
+158-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:47:9-64:20
+159            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+159-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:48:13-79
+160            android:excludeFromRecents="true"
+160-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:49:13-46
+161            android:exported="true"
+161-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:50:13-36
+162            android:launchMode="singleTask"
+162-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:51:13-44
+163            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+163-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:52:13-72
+164            <intent-filter>
+164-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:53:13-63:29
+165                <action android:name="android.intent.action.VIEW" />
+165-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:36:17-69
+165-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:36:25-66
+166
+167                <category android:name="android.intent.category.DEFAULT" />
+167-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:38:17-76
+167-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:38:27-73
+168                <category android:name="android.intent.category.BROWSABLE" />
+168-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:39:17-78
+168-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:39:27-75
+169
+170                <data
+170-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:41:17-44:51
+171                    android:host="firebase.auth"
+171-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:42:21-49
+172                    android:path="/"
+172-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:43:21-37
+173                    android:scheme="recaptcha" />
+173-->[com.google.firebase:firebase-auth:23.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\fc20667baf82483c3d7988d677681a12\transformed\firebase-auth-23.2.0\AndroidManifest.xml:44:21-48
+174            </intent-filter>
+175        </activity>
+176
+177        <service
+177-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+178            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+178-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+179            android:enabled="true"
+179-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+180            android:exported="false" >
+180-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+181            <meta-data
+181-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+182                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+182-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+183                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+183-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+184        </service>
+185
+186        <activity
+186-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+187            android:name="androidx.credentials.playservices.HiddenActivity"
+187-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+188            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+188-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+189            android:enabled="true"
+189-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+190            android:exported="false"
+190-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+191            android:fitsSystemWindows="true"
+191-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+192            android:theme="@style/Theme.Hidden" >
+192-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\977bfa0ca6f033442697c513ea31c22a\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+193        </activity>
+194        <!--
+195            Service handling Google Sign-In user revocation. For apps that do not integrate with
+196            Google Sign-In, this service will never be started.
+197        -->
+198        <service
+198-->[com.google.android.gms:play-services-auth:20.7.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\91a627123d2837a571d9298e72e93805\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+199            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+199-->[com.google.android.gms:play-services-auth:20.7.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\91a627123d2837a571d9298e72e93805\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+200            android:exported="true"
+200-->[com.google.android.gms:play-services-auth:20.7.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\91a627123d2837a571d9298e72e93805\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+201            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+201-->[com.google.android.gms:play-services-auth:20.7.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\91a627123d2837a571d9298e72e93805\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+202            android:visibleToInstantApps="true" />
+202-->[com.google.android.gms:play-services-auth:20.7.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\91a627123d2837a571d9298e72e93805\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+203
+204        <provider
+204-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+205            android:name="com.google.firebase.provider.FirebaseInitProvider"
+205-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+206            android:authorities="com.example.e_commerceapp.firebaseinitprovider"
+206-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+207            android:directBootAware="true"
+207-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+208            android:exported="false"
+208-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+209            android:initOrder="100" />
+209-->[com.google.firebase:firebase-common:21.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\4f47f5713a01fbbfbe5acab57cac9a8d\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+210
+211        <receiver
+211-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:29:9-33:20
+212            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+212-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:30:13-85
+213            android:enabled="true"
+213-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:31:13-35
+214            android:exported="false" >
+214-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:32:13-37
+215        </receiver>
+216
+217        <service
+217-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:35:9-38:40
+218            android:name="com.google.android.gms.measurement.AppMeasurementService"
+218-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:36:13-84
+219            android:enabled="true"
+219-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:37:13-35
+220            android:exported="false" />
+220-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:38:13-37
+221        <service
+221-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:39:9-43:72
+222            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+222-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:40:13-87
+223            android:enabled="true"
+223-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:41:13-35
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:42:13-37
+225            android:permission="android.permission.BIND_JOB_SERVICE" />
+225-->[com.google.android.gms:play-services-measurement:22.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\d0f7db5f92e0bd4f911cd8e95b0e1bba\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:43:13-69
+226
+227        <uses-library
+227-->[androidx.window:window:1.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2e996a8b762ef3175ec9d191fd7eba99\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+228            android:name="androidx.window.extensions"
+228-->[androidx.window:window:1.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2e996a8b762ef3175ec9d191fd7eba99\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+229            android:required="false" />
+229-->[androidx.window:window:1.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2e996a8b762ef3175ec9d191fd7eba99\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+230        <uses-library
+230-->[androidx.window:window:1.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2e996a8b762ef3175ec9d191fd7eba99\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+231            android:name="androidx.window.sidecar"
+231-->[androidx.window:window:1.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2e996a8b762ef3175ec9d191fd7eba99\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+232            android:required="false" />
+232-->[androidx.window:window:1.0.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\2e996a8b762ef3175ec9d191fd7eba99\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+233        <uses-library
+233-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\244089d231cb755ef36c0e6e5be5d4e6\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+234            android:name="android.ext.adservices"
+234-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\244089d231cb755ef36c0e6e5be5d4e6\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+235            android:required="false" />
+235-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\244089d231cb755ef36c0e6e5be5d4e6\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+236
+237        <provider
+237-->[androidx.emoji2:emoji2:1.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3baf76153a8786b6eaf984c5b5d8e17c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+238            android:name="androidx.startup.InitializationProvider"
+238-->[androidx.emoji2:emoji2:1.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3baf76153a8786b6eaf984c5b5d8e17c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+239            android:authorities="com.example.e_commerceapp.androidx-startup"
+239-->[androidx.emoji2:emoji2:1.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3baf76153a8786b6eaf984c5b5d8e17c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+240            android:exported="false" >
+240-->[androidx.emoji2:emoji2:1.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3baf76153a8786b6eaf984c5b5d8e17c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+241            <meta-data
+241-->[androidx.emoji2:emoji2:1.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3baf76153a8786b6eaf984c5b5d8e17c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+242                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+242-->[androidx.emoji2:emoji2:1.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3baf76153a8786b6eaf984c5b5d8e17c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+243                android:value="androidx.startup" />
+243-->[androidx.emoji2:emoji2:1.2.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\3baf76153a8786b6eaf984c5b5d8e17c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+244            <meta-data
+244-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+245                android:name="androidx.work.WorkManagerInitializer"
+245-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+246                android:value="androidx.startup" />
+246-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+247            <meta-data
+247-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\621d64ea32df03d5322a3922aaa51508\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+248                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+248-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\621d64ea32df03d5322a3922aaa51508\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+249                android:value="androidx.startup" />
+249-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\621d64ea32df03d5322a3922aaa51508\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+250            <meta-data
+250-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+251                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+252                android:value="androidx.startup" />
+252-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+253        </provider>
+254
+255        <service
+255-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+256            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+256-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+258            android:enabled="@bool/enable_system_alarm_service_default"
+258-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+259            android:exported="false" />
+259-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+260        <service
+260-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+261            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+261-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+263            android:enabled="@bool/enable_system_job_service_default"
+263-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+264            android:exported="true"
+264-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+265            android:permission="android.permission.BIND_JOB_SERVICE" />
+265-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+266        <service
+266-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+267            android:name="androidx.work.impl.foreground.SystemForegroundService"
+267-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+268            android:directBootAware="false"
+268-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+269            android:enabled="@bool/enable_system_foreground_service_default"
+269-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+270            android:exported="false" />
+270-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+271
+272        <receiver
+272-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+273            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+273-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+274            android:directBootAware="false"
+274-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+275            android:enabled="true"
+275-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+276            android:exported="false" />
+276-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+277        <receiver
+277-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+278            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+278-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+279            android:directBootAware="false"
+279-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+280            android:enabled="false"
+280-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+281            android:exported="false" >
+281-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+282            <intent-filter>
+282-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+283                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+283-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+283-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+284                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+284-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+284-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+285            </intent-filter>
+286        </receiver>
+287        <receiver
+287-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+288            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+288-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+289            android:directBootAware="false"
+289-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+290            android:enabled="false"
+290-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+291            android:exported="false" >
+291-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+292            <intent-filter>
+292-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+293                <action android:name="android.intent.action.BATTERY_OKAY" />
+293-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+293-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+294                <action android:name="android.intent.action.BATTERY_LOW" />
+294-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+294-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+295            </intent-filter>
+296        </receiver>
+297        <receiver
+297-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+298            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+298-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+299            android:directBootAware="false"
+299-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+300            android:enabled="false"
+300-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+301            android:exported="false" >
+301-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+302            <intent-filter>
+302-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+303                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+303-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+303-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+304                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+304-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+304-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+305            </intent-filter>
+306        </receiver>
+307        <receiver
+307-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+308            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+308-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+309            android:directBootAware="false"
+309-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+310            android:enabled="false"
+310-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+311            android:exported="false" >
+311-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+312            <intent-filter>
+312-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+313                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+313-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+313-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+314            </intent-filter>
+315        </receiver>
+316        <receiver
+316-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+317            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+317-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+318            android:directBootAware="false"
+318-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+319            android:enabled="false"
+319-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+320            android:exported="false" >
+320-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+321            <intent-filter>
+321-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+322                <action android:name="android.intent.action.BOOT_COMPLETED" />
+322-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+322-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+323                <action android:name="android.intent.action.TIME_SET" />
+323-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+323-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+324                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+324-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+324-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+325            </intent-filter>
+326        </receiver>
+327        <receiver
+327-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+328            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+328-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+329            android:directBootAware="false"
+329-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+330            android:enabled="@bool/enable_system_alarm_service_default"
+330-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+331            android:exported="false" >
+331-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+332            <intent-filter>
+332-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+333                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+333-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+333-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+334            </intent-filter>
+335        </receiver>
+336        <receiver
+336-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+337            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+337-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+338            android:directBootAware="false"
+338-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+339            android:enabled="true"
+339-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+340            android:exported="true"
+340-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+341            android:permission="android.permission.DUMP" >
+341-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+342            <intent-filter>
+342-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+343                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+343-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+343-->[androidx.work:work-runtime:2.7.1] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\635649757557f03a7197184abada5556\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+344            </intent-filter>
+345        </receiver>
+346
+347        <activity
+347-->[com.google.android.gms:play-services-base:18.5.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\25653095734b7f65d8a509322ad5c90d\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+348            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+348-->[com.google.android.gms:play-services-base:18.5.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\25653095734b7f65d8a509322ad5c90d\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+349            android:exported="false"
+349-->[com.google.android.gms:play-services-base:18.5.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\25653095734b7f65d8a509322ad5c90d\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+350            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+350-->[com.google.android.gms:play-services-base:18.5.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\25653095734b7f65d8a509322ad5c90d\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+351
+352        <receiver
+352-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+353            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+353-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+354            android:directBootAware="false"
+354-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+355            android:enabled="true"
+355-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+356            android:exported="true"
+356-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+357            android:permission="android.permission.DUMP" >
+357-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+358            <intent-filter>
+358-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+359                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+359-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+359-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+360            </intent-filter>
+361            <intent-filter>
+361-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+362                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+362-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+362-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+363            </intent-filter>
+364            <intent-filter>
+364-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+365                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+365-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+365-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+366            </intent-filter>
+367            <intent-filter>
+367-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+368                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+368-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+368-->[androidx.profileinstaller:profileinstaller:1.4.0] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\80e9591a5071e9fe74e433e5da55078b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+369            </intent-filter>
+370        </receiver>
+371
+372        <service
+372-->[androidx.room:room-runtime:2.2.5] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\7fe92f48901f24b6b14106d991bac8a4\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+373            android:name="androidx.room.MultiInstanceInvalidationService"
+373-->[androidx.room:room-runtime:2.2.5] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\7fe92f48901f24b6b14106d991bac8a4\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+374            android:directBootAware="true"
+374-->[androidx.room:room-runtime:2.2.5] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\7fe92f48901f24b6b14106d991bac8a4\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+375            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+375-->[androidx.room:room-runtime:2.2.5] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\7fe92f48901f24b6b14106d991bac8a4\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+376        <activity
+376-->[com.google.android.play:core-common:2.0.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\1c70ed4cc307e8420988a97294d626e4\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+377            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+377-->[com.google.android.play:core-common:2.0.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\1c70ed4cc307e8420988a97294d626e4\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+378            android:exported="false"
+378-->[com.google.android.play:core-common:2.0.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\1c70ed4cc307e8420988a97294d626e4\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+379            android:stateNotNeeded="true"
+379-->[com.google.android.play:core-common:2.0.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\1c70ed4cc307e8420988a97294d626e4\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+380            android:theme="@style/Theme.PlayCore.Transparent" />
+380-->[com.google.android.play:core-common:2.0.3] D:\BCA\TYBCA SEM-6\Project Viva\Yoga Training Project\Yoga Training\.gradle\caches\8.10.2\transforms\1c70ed4cc307e8420988a97294d626e4\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+381    </application>
+382
+383</manifest>

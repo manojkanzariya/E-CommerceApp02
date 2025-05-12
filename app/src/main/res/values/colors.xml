@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_200">#E5D5F6</color>
+    <color name="purple_700">#7B1FA2</color>
+
+    <color name="light_grey_background">#FAFAFA</color>
+    <color name="card_stroke">#EEEEEE</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_primary">#212121</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="green_success">#4CAF50</color>
+    <color name="red_500">#F44336</color>
+
+    <!-- Primary brand color -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="green_light">#E8F5E9</color>
+    <color name="gray_light">#D3D3D3</color>
+    <color name="gray_dark">#424242</color>
+
+    <color name="success_green">#4CAF50</color>
+
+    <color name="teal_200">#bcf5f5</color>
+    <color name="teal_700">#179898</color>
+
+    <!-- Order Status Colors -->
+    <color name="status_pending">#FFA500</color>     <!-- Orange -->
+    <color name="status_processing">#2196F3</color>  <!-- Blue -->
+    <color name="status_shipped">#673AB7</color>     <!-- Deep Purple -->
+    <color name="status_delivered">#4CAF50</color>   <!-- Green -->
+    <color name="status_cancelled">#F44336</color>   <!-- Red -->
+
+    <color name="progress_overlay">#80000000</color>
+</resources>

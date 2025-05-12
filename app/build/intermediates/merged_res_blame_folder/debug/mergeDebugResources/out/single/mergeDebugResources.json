@@ -1,0 +1,530 @@
+[
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_review.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_review.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_vendor_orders.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_vendor_orders.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_add.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_order_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_order_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_product_reviews.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_product_reviews.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_search.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_vendor_product_list.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_vendor_product_list.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_inventory_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_inventory_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_orders.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_orders.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_close.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_empty_cart.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_empty_cart.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_home.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_vendor_payment.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_vendor_payment.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_category.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_wishlist.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_wishlist.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-pngs-0:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_product_details.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_product_details.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\anim_slide_out_right.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_layout_empty_order_history.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\layout_empty_order_history.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_empty_cart.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_empty_cart.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_logo.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_dialog_confirm_password.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\dialog_confirm_password.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_forgot_password.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_address.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_address.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_email.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_related_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_related_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_inventory.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_inventory.xml"
+    },
+    {
+        "merged": "com.example.e_commerceapp-debug-5:/layout_item_product.xml.flat",
+        "source": "com.example.e_commerceapp-main-7:/layout/item_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\menu_vendor_dashboard_menu.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\menu\\vendor_dashboard_menu.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_forgot_password.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_forgot_password.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_arrow_back.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_home_kitchen.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_home_kitchen.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_vendor_settings.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_vendor_settings.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_store.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_store.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_settings.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_settings.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_order_history.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_order_history.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_nav_header.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_profile.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_order_status_delivered.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_order_status_delivered.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_menu.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_payment_methods.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_payment_methods.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_store_settings.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_store_settings.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_edit.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_edit.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_product_placeholder.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_product_placeholder.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_vendor_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_vendor_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_electronics.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_electronics.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_all.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_all.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\anim_slide_in_right.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_shopping_cart.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_shopping_cart.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_dialog_rounded.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_dialog_rounded.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\menu_nav_menu.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\menu\\nav_menu.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_fashion.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_fashion.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_wishlist.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_wishlist.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_add_address.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_add_address.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_toys.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_toys.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\menu_home_menu.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\menu\\home_menu.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_profile.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_vendor_profile.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_vendor_profile.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_error.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_error.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_order_status_shipped.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_order_status_shipped.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_payment.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_payment.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\color_bottom_nav_selector.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\color\\bottom_nav_selector.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_login.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_week.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_week.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_cart_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_cart_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_delete.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_main.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_edit_profile.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_edit_profile.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_payment.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_payment.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_order_status_processing.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_order_status_processing.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_order_status_cancelled.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_order_status_cancelled.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_cart.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_order_confirmed.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_order_confirmed.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_register.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_order_status_pending.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_order_status_pending.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_theme.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_theme.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_vendor_register.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_vendor_register.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_home.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_nav_header_vendor.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\nav_header_vendor.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_analytics.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_analytics.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_switch_account.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_switch_account.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_receipt.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_receipt.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\anim_slide_out_left.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_shipping_settings.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_shipping_settings.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_wishlist_filled.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_wishlist_filled.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_lock.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_lock.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_books.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_books.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_vendor_details.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_vendor_details.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_order_details.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_order_details.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_shopping_bag.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_shopping_bag.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_photo.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_photo.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\xml_backup_rules.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_vendor_order.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_vendor_order.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_wishlist_outline.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_wishlist_outline.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_stock_indicator.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_stock_indicator.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_order_confirmation.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_order_confirmation.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\menu_vendor_drawer_menu.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\menu\\vendor_drawer_menu.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_circle_background.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_item_wishlist_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\item_wishlist_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_order_status.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_order_status.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_edit_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_edit_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_vendor_dashboard.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_vendor_dashboard.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_placeholder.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_placeholder.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\anim_slide_in_left.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_change_password.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_change_password.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_dialog_add_review.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\dialog_add_review.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_add_product.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_add_product.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_bg_circle_white.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\bg_circle_white.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_inventory.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_inventory.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_cart.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_activity_change_password.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\menu_bottom_nav_menu.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_analytics.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_analytics.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\navigation_nav_graph.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\drawable_ic_logout.png.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\drawable\\ic_logout.png"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\layout_fragment_theme_settings.xml.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\layout\\fragment_theme_settings.xml"
+    },
+    {
+        "merged": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-debug-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\BCA\\TYBCA SEM-6\\Project Viva\\Yoga Training Project\\Yoga Training\\.gradle\\daemon\\8.10.2\\com.example.e_commerceapp-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    }
+]
